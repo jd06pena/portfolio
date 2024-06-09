@@ -1,0 +1,1112 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.img_1 {
+  background-image: url(../img/sanal-ofislere-talep-7-kat-artti-calisma-duzeni-degisiyor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  border-image: fill 0 linear-gradient(rgba(9, 2, 82, 0.444), #000000);
+}
+
+/* prueba hamburguesa ------------------------------------------ */
+
+header {
+  color: rgb(0, 0, 0);
+  padding: 3px 10px;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2); /* Fondo blanco semitransparente */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Aplicación del filtro de desenfoque */
+  -webkit-backdrop-filter: blur(10px); /* Soporte para navegadores WebKit */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Borde blanco semitransparente */
+  position: fixed;
+  z-index: 1500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 530;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 8px;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* fin hamburguesa prueba--------------- */
+
+.w_1 {
+  position: absolute;
+  top: 110px;
+  left: 28%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 30px;
+}
+
+.w_2 {
+  position: absolute;
+  top: 145px;
+  left: 33%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.w_3 {
+  position: absolute;
+  top: 240px;
+  left: 33%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 15px;
+}
+
+.blanco_1 {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.degradado_1 {
+  width: 100%;
+  height: 200px;
+  background: rgb(14, 133, 229);
+  background: linear-gradient(
+    0deg,
+    rgba(14, 133, 229, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.bloque_1 {
+  width: 100%;
+  height: 500px;
+  background: rgb(14, 133, 229);
+}
+
+.degradado_2 {
+  width: 100%;
+  height: 200px;
+  background: rgb(14, 133, 229);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 133, 229, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.tarjeta_1 {
+  width: 150px;
+  height: 220px;
+  background-color: rgb(9, 81, 140);
+  position: absolute;
+  top: 550px;
+  left: 105px;
+  border-radius: 18px;
+}
+
+.tarjeta_2 {
+  width: 150px;
+  height: 290px;
+  background-image: url("../img/i3i-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 480px;
+  left: 90px;
+  border-radius: 18px;
+}
+
+.sapn_a {
+  position: absolute;
+  top: 820px;
+  width: 100%;
+  height: 380px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(56, 0, 0);
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+}
+
+.azulO_1 {
+  background-color: rgb(0, 14, 34);
+}
+
+.my_pro {
+  text-align: center;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.morado_1 {
+  background-color: rgb(20, 0, 34);
+}
+
+.todos_proy {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+.morado_2{
+  background-color: rgb(20, 0, 34);
+  height: 50px;
+  width: 100%;
+}
+
+footer{
+  background-color: rgb(0, 14, 34);
+  height: 700px;
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+
+
+
+/* responsive--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 500px) {
+  .img_1 {
+    height: 300px;
+  }
+
+  #a_about {
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 0%;
+  }
+
+  #a_more {
+    position: absolute;
+    font-size: 15px;
+    top: 75px;
+    padding: 5%;
+    text-align: justify;
+  }
+
+  .azulO_1 {
+    background-color: rgb(0, 14, 34);
+    height: 100px;
+    width: 100%;
+  }
+
+  .morado_1 {
+    background-color: rgb(20, 0, 34);
+    height: 50px;
+    width: 100%;
+  }
+
+  .todos_proy {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    
+  }
+
+
+  #lis_1 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 150px;
+    top: 100px;
+    left: 30%;
+    padding-top: 40px;
+    padding-left: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+
+  }
+
+  #lis_2 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 150px;
+    top: 250px;
+    left: 30%;
+    padding-top: 40px;
+    padding-left: 52px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+  #lis_3 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 150px;
+    top: 400px;
+    left: 30%;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+
+  #lis_4 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 150px;
+    top: 550px;
+    left: 30%;
+    padding-top: 30px;
+    padding-left: 52px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+  
+
+  footer{
+    background-color: rgb(0, 14, 34);
+    height: 400px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  #contacto{
+    display: flex;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    font-size: 25px;
+    padding-left: 5%;
+  }
+
+  #numero_1{
+    display: flex;
+    padding-bottom: 5%;
+    padding-left: 5%;
+  }
+
+
+
+  .padre_svg{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+    margin-top: 55px;
+  
+    
+  }
+  #facebook{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 15px;
+  }
+  #instagram{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 15px;
+  }
+  
+  #email{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 15px;
+  }
+ 
+
+}
+
+/* 760 px ----------------------------------- */
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .img_1 {
+    height: 450px;
+  }
+
+  .w_1 {
+    position: absolute;
+    top: 160px;
+    left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 38px;
+  }
+
+  .w_2 {
+    position: absolute;
+    top: 205px;
+    left: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+  }
+
+  .w_3 {
+    position: absolute;
+    top: 280px;
+    left: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 15px;
+  }
+
+  .blando_1 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .tarjeta_1 {
+    width: 190px;
+    height: 260px;
+    background-color: rgb(9, 81, 140);
+    position: absolute;
+    top: 550px;
+    left: 300px;
+    border-radius: 18px;
+  }
+
+  .tarjeta_2 {
+    width: 190px;
+    height: 330px;
+    background-image: url("../img/i3i-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 480px;
+    left: 290px;
+    border-radius: 18px;
+  }
+
+  #a_about {
+    position: absolute;
+    font-size: 38px;
+    font-weight: 800;
+    left: 39%;
+    top: 20px;
+  }
+
+  #a_more {
+    position: absolute;
+    font-size: 22px;
+    top: 95px;
+    padding: 5%;
+    text-align: justify;
+  }
+
+  .azulO_1 {
+    background-color: rgb(0, 14, 34);
+    height: 200px;
+    width: 100%;
+  }
+
+  .my_pro {
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+
+  .todos_proy {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+  }
+
+
+  .morado_1 {
+    background-color: rgb(20, 0, 34);
+    height: 70px;
+    width: 100%;
+  }
+
+  #lis_1 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 150px;
+    top: 100px;
+    left: 15%;
+    padding-top: 40px;
+    padding-left: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+
+  }
+
+  #lis_2 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 150px;
+    top: 100px;
+    left: 65%;
+    padding-top: 40px;
+    padding-left: 52px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+  #lis_3 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 150px;
+    top: 400px;
+    left: 15%;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+
+  #lis_4 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 150px;
+    top: 400px;
+    left: 65%;
+    padding-top: 30px;
+    padding-left: 52px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+
+
+  footer{
+    background-color: rgb(0, 14, 34);
+    height: 500px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+
+  #contacto{
+    display: flex;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 35px;
+    padding-left: 5%;
+  }
+
+  #numero_1{
+    display: flex;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 20px;
+  }
+
+ 
+
+  .padre_svg{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+    margin-top: 55px;
+  
+    
+  }
+  #facebook{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    margin: 35px;
+  }
+  #instagram{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    margin: 35px;
+  }
+  
+  #email{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    margin: 35px;
+  }
+
+
+}
+
+/* 1220 px ----------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1220px) {
+  .img_1 {
+    height: 550px;
+  }
+
+  .w_1 {
+    position: absolute;
+    top: 160px;
+    left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 60px;
+  }
+
+  .w_2 {
+    position: absolute;
+    top: 235px;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 38px;
+  }
+
+  .w_3 {
+    position: absolute;
+    top: 380px;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 29px;
+  }
+  .blando_1 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .tarjeta_1 {
+    width: 290px;
+    height: 360px;
+    background-color: rgb(9, 81, 140);
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    border-radius: 18px;
+  }
+
+  .tarjeta_2 {
+    width: 290px;
+    height: 430px;
+    background-image: url("../img/i3i-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 680px;
+    left: 90px;
+    border-radius: 18px;
+  }
+
+  .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 100px;
+  }
+  
+  #a_about {
+    position: absolute;
+    font-size: 55px;
+    font-weight: 800;
+    left: 55%;
+    top: 20px;
+  }
+
+  #a_more {
+    position: absolute;
+    font-size: 28px;
+    top: 190px;
+    padding: 5%;
+    text-align: justify;
+    padding-left: 40%;
+  }
+
+  .azulO_1 {
+    background-color: rgb(0, 14, 34);
+    height: 250px;
+    width: 100%;
+  }
+
+  .my_pro {
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .morado_1 {
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 100%;
+  }
+
+  #lis_1 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 150px;
+    width: 200px;
+    top: 150px;
+    left: 9%;
+    padding-top: 60px;
+    padding-left: 60px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+
+  }
+
+  #lis_2 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 150px;
+    width: 200px;
+    top: 150px;
+    left: 31%;
+    padding-top: 60px;
+    padding-left: 82px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+  #lis_3 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 150px;
+    width: 200px;
+    top: 150px;
+    left: 53%;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+
+  #lis_4 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 150px;
+    width: 200px;
+    top: 150px;
+    left: 75%;
+    padding-top: 60px;
+    padding-left: 52px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+
+  footer{
+    background-color: rgb(0, 14, 34);
+    height: 500px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  #contacto{
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 35px;
+    padding-left: 5%;
+  }
+
+  #numero_1{
+    display: flex;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 20px;
+  }
+
+  .vertical-hr {
+    position: relative;
+    left: -10%;
+    top: -50%;
+
+
+    width: 1px;              /* Grosor de la línea */
+    height: 70%;           /* Altura de la línea */
+    background-color: rgb(255, 255, 255); /* Color de la línea */
+    border: none;            /* Eliminar el borde por defecto de <hr> */
+    margin: 20px auto;       /* Centrar la línea horizontalmente */
+    transform: rotate(180deg); /* Rotar la línea 90 grados */
+  }
+  
+
+  .padre_svg{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+    margin-top: 55px;
+    position: relative;
+    left: 550px;
+    top: -550px;
+    
+  }
+  #facebook{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+  #instagram{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+  
+  #email{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+
+
+}
+
+/* 1440 px ----------------------------------- */
+
+@media (min-width: 1221px) {
+  .img_1 {
+    height: 600px;
+  }
+
+  .w_1 {
+    position: absolute;
+    top: 160px;
+    left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 70px;
+  }
+
+  .w_2 {
+    position: absolute;
+    top: 245px;
+    left: 41%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 40px;
+  }
+
+  .w_3 {
+    position: absolute;
+    top: 390px;
+    left: 41%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 29px;
+  }
+  .blando_1 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .tarjeta_1 {
+    width: 290px;
+    height: 360px;
+    background-color: rgb(9, 81, 140);
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    border-radius: 18px;
+  }
+
+  .tarjeta_2 {
+    width: 290px;
+    height: 430px;
+    background-image: url("../img/i3i-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 680px;
+    left: 90px;
+  }
+
+  .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 200px;
+  }
+
+  #a_about {
+    position: absolute;
+    font-size: 55px;
+    font-weight: 800;
+    left: 55%;
+    top: 20px;
+  }
+
+  #a_more {
+    position: absolute;
+    font-size: 28px;
+    top: 240px;
+    padding: 5%;
+    text-align: justify;
+    padding-left: 40%;
+  }
+
+  .azulO_1 {
+    background-color: rgb(0, 14, 34);
+    height: 250px;
+    width: 100%;
+  }
+
+  .my_pro {
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .morado_1 {
+    background-color: rgb(20, 0, 34);
+    height: 100px;
+    width: 100%;
+  }
+
+  #lis_1 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 150px;
+    width: 200px;
+    top: 150px;
+    left: 9%;
+    padding-top: 60px;
+    padding-left: 60px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+  #lis_2 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 150px;
+    width: 200px;
+    top: 150px;
+    left: 31%;
+    padding-top: 60px;
+    padding-left: 82px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+  #lis_3 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 150px;
+    width: 200px;
+    top: 150px;
+    left: 53%;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+
+  #lis_4 {
+    position: absolute;
+    background-color: rgb(20, 0, 34);
+    height: 150px;
+    width: 200px;
+    top: 150px;
+    left: 75%;
+    padding-top: 60px;
+    padding-left: 52px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
+  }
+
+  footer{
+    background-color: rgb(0, 14, 34);
+    height: 500px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  #contacto{
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 35px;
+    padding-left: 5%;
+  }
+
+  #numero_1{
+    display: flex;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 20px;
+  }
+
+  .vertical-hr {
+    position: relative;
+    left: -10%;
+    top: -60%;
+
+
+    width: 1px;              /* Grosor de la línea */
+    height: 70%;           /* Altura de la línea */
+    background-color: rgb(255, 255, 255); /* Color de la línea */
+    border: none;            /* Eliminar el borde por defecto de <hr> */
+    margin: 20px auto;       /* Centrar la línea horizontalmente */
+    transform: rotate(180deg); /* Rotar la línea 90 grados */
+  }
+
+
+  .padre_svg{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+    margin-top: 55px;
+    position: relative;
+    left: 650px;
+    top: -570px;
+   
+    
+  }
+  #facebook{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+  #instagram{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+  
+  #email{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+
+}
+
+/* responsive  hamburguesaaaaaa --------------- */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2); /* Fondo blanco semitransparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px); /* Aplicación del filtro de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para navegadores WebKit */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borde blanco semitransparente */
+    position: fixed;
+    z-index: 1500;
+  }
+
+  .nav-links li {
+    text-align: center;
+    margin: 10px 0px;
+  }
+}
+
+.nav-links.show {
+  display: flex;
+}
+
+/* fin     responsive   hamburguesaaaaaa --------------- */
