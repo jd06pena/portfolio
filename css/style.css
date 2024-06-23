@@ -308,6 +308,7 @@ footer{
     left: 30%;
     padding-top: 30px;
     padding-left: 45px;
+    padding-right: 15px;
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
@@ -537,6 +538,7 @@ footer{
     left: 65%;
     padding-top: 30px;
     padding-left: 52px;
+    padding-right: 15px;
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
@@ -762,6 +764,7 @@ footer{
     left: 75%;
     padding-top: 60px;
     padding-left: 52px;
+    padding-right: 15px;
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
@@ -997,7 +1000,8 @@ footer{
     top: 150px;
     left: 75%;
     padding-top: 60px;
-    padding-left: 52px;
+    padding-left: 50px;
+    padding-right: 20px;
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
