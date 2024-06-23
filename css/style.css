@@ -189,26 +189,19 @@ nav {
   color: white;
 }
 
-
-
-.morado_2{
+.morado_2 {
   background-color: rgb(20, 0, 34);
   height: 50px;
   width: 100%;
 }
 
-footer{
+footer {
   background-color: rgb(0, 14, 34);
   height: 700px;
   width: 100%;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
-
-
-
-
 
 /* responsive--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -252,9 +245,7 @@ footer{
     list-style-type: none;
     font-size: 20px;
     color: white;
-    
   }
-
 
   #lis_1 {
     position: absolute;
@@ -267,7 +258,6 @@ footer{
     padding-left: 40px;
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
-
   }
 
   #lis_2 {
@@ -298,7 +288,6 @@ footer{
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
 
-
   #lis_4 {
     position: absolute;
     background-color: rgb(20, 0, 34);
@@ -312,18 +301,16 @@ footer{
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
-  
 
-  footer{
+  footer {
     background-color: rgb(0, 14, 34);
     height: 400px;
     width: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    
   }
 
-  #contacto{
+  #contacto {
     display: flex;
     padding-top: 20%;
     padding-bottom: 10%;
@@ -331,45 +318,55 @@ footer{
     padding-left: 5%;
   }
 
-  #numero_1{
+  #numero_1 {
     display: flex;
     padding-bottom: 5%;
     padding-left: 5%;
   }
 
-
-
-  .padre_svg{
+  .padre_svg {
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center; /* Para centrar horizontalmente */
     align-items: center; /* Para centrar verticalmente */
     margin-top: 55px;
-  
-    
   }
-  #facebook{
+  #facebook {
     width: 40px;
     height: 40px;
     display: flex;
     margin: 15px;
   }
-  #instagram{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    margin: 15px;
-  }
-  
-  #email{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    margin: 15px;
-  }
- 
 
+  #facebook:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
+
+  #instagram {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 15px;
+  }
+
+  #instagram:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
+
+  #email {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 15px;
+  }
+
+  #email:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
 }
 
 /* 760 px ----------------------------------- */
@@ -467,7 +464,6 @@ footer{
     font-weight: 800;
   }
 
-
   .todos_proy {
     position: relative;
     height: 600px;
@@ -478,7 +474,6 @@ footer{
     font-size: 20px;
     color: white;
   }
-
 
   .morado_1 {
     background-color: rgb(20, 0, 34);
@@ -497,7 +492,6 @@ footer{
     padding-left: 40px;
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
-
   }
 
   #lis_2 {
@@ -528,7 +522,6 @@ footer{
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
 
-
   #lis_4 {
     position: absolute;
     background-color: rgb(20, 0, 34);
@@ -543,19 +536,15 @@ footer{
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
 
-
-
-  footer{
+  footer {
     background-color: rgb(0, 14, 34);
     height: 500px;
     width: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    
   }
 
-
-  #contacto{
+  #contacto {
     display: flex;
     padding-top: 15%;
     padding-bottom: 5%;
@@ -563,46 +552,56 @@ footer{
     padding-left: 5%;
   }
 
-  #numero_1{
+  #numero_1 {
     display: flex;
     padding-bottom: 5%;
     padding-left: 5%;
     font-size: 20px;
   }
 
- 
-
-  .padre_svg{
+  .padre_svg {
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center; /* Para centrar horizontalmente */
     align-items: center; /* Para centrar verticalmente */
     margin-top: 55px;
-  
-    
   }
-  #facebook{
-    width: 51px;
-    height: 51px;
-    display: flex;
-    margin: 35px;
-  }
-  #instagram{
-    width: 51px;
-    height: 51px;
-    display: flex;
-    margin: 35px;
-  }
-  
-  #email{
+  #facebook {
     width: 51px;
     height: 51px;
     display: flex;
     margin: 35px;
   }
 
+  #facebook:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
 
+  #instagram {
+    width: 51px;
+    height: 51px;
+    display: flex;
+    margin: 35px;
+  }
+
+  #instagram:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
+
+  #email {
+    width: 51px;
+    height: 51px;
+    display: flex;
+    margin: 35px;
+  }
+
+  #email:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
 }
 
 /* 1220 px ----------------------------------- */
@@ -674,7 +673,7 @@ footer{
     text-decoration: none;
     margin-left: 100px;
   }
-  
+
   #a_about {
     position: absolute;
     font-size: 55px;
@@ -723,7 +722,6 @@ footer{
     padding-left: 60px;
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
-
   }
 
   #lis_2 {
@@ -754,7 +752,6 @@ footer{
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
 
-
   #lis_4 {
     position: absolute;
     background-color: rgb(20, 0, 34);
@@ -769,17 +766,15 @@ footer{
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
 
-
-  footer{
+  footer {
     background-color: rgb(0, 14, 34);
     height: 500px;
     width: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    
   }
 
-  #contacto{
+  #contacto {
     display: flex;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -787,7 +782,7 @@ footer{
     padding-left: 5%;
   }
 
-  #numero_1{
+  #numero_1 {
     display: flex;
     padding-bottom: 5%;
     padding-left: 5%;
@@ -799,17 +794,15 @@ footer{
     left: -10%;
     top: -50%;
 
-
-    width: 1px;              /* Grosor de la línea */
-    height: 70%;           /* Altura de la línea */
+    width: 1px; /* Grosor de la línea */
+    height: 70%; /* Altura de la línea */
     background-color: rgb(255, 255, 255); /* Color de la línea */
-    border: none;            /* Eliminar el borde por defecto de <hr> */
-    margin: 20px auto;       /* Centrar la línea horizontalmente */
+    border: none; /* Eliminar el borde por defecto de <hr> */
+    margin: 20px auto; /* Centrar la línea horizontalmente */
     transform: rotate(180deg); /* Rotar la línea 90 grados */
   }
-  
 
-  .padre_svg{
+  .padre_svg {
     width: 50%;
     height: 100px;
     display: flex;
@@ -819,29 +812,42 @@ footer{
     position: relative;
     left: 550px;
     top: -550px;
-    
   }
-  #facebook{
-    width: 65px;
-    height: 65px;
-    display: flex;
-    margin: 45px;
-  }
-  #instagram{
-    width: 65px;
-    height: 65px;
-    display: flex;
-    margin: 45px;
-  }
-  
-  #email{
+  #facebook {
     width: 65px;
     height: 65px;
     display: flex;
     margin: 45px;
   }
 
+  #facebook:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
 
+  #instagram {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+
+  #instagram:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
+
+  #email {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+
+  #email:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
 }
 
 /* 1440 px ----------------------------------- */
@@ -991,7 +997,6 @@ footer{
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
 
-
   #lis_4 {
     position: absolute;
     background-color: rgb(20, 0, 34);
@@ -1006,16 +1011,15 @@ footer{
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.629);
   }
 
-  footer{
+  footer {
     background-color: rgb(0, 14, 34);
     height: 500px;
     width: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    
   }
 
-  #contacto{
+  #contacto {
     display: flex;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -1023,7 +1027,7 @@ footer{
     padding-left: 5%;
   }
 
-  #numero_1{
+  #numero_1 {
     display: flex;
     padding-bottom: 5%;
     padding-left: 5%;
@@ -1035,17 +1039,15 @@ footer{
     left: -10%;
     top: -60%;
 
-
-    width: 1px;              /* Grosor de la línea */
-    height: 70%;           /* Altura de la línea */
+    width: 1px; /* Grosor de la línea */
+    height: 70%; /* Altura de la línea */
     background-color: rgb(255, 255, 255); /* Color de la línea */
-    border: none;            /* Eliminar el borde por defecto de <hr> */
-    margin: 20px auto;       /* Centrar la línea horizontalmente */
+    border: none; /* Eliminar el borde por defecto de <hr> */
+    margin: 20px auto; /* Centrar la línea horizontalmente */
     transform: rotate(180deg); /* Rotar la línea 90 grados */
   }
 
-
-  .padre_svg{
+  .padre_svg {
     width: 50%;
     height: 100px;
     display: flex;
@@ -1055,29 +1057,42 @@ footer{
     position: relative;
     left: 650px;
     top: -570px;
-   
-    
   }
-  #facebook{
-    width: 65px;
-    height: 65px;
-    display: flex;
-    margin: 45px;
-  }
-  #instagram{
-    width: 65px;
-    height: 65px;
-    display: flex;
-    margin: 45px;
-  }
-  
-  #email{
+  #facebook {
     width: 65px;
     height: 65px;
     display: flex;
     margin: 45px;
   }
 
+  #facebook:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
+
+  #instagram {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+
+  #instagram:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
+
+  #email {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: 45px;
+  }
+
+  #email:hover {
+    filter: invert(29%) sepia(89%) saturate(6361%) hue-rotate(180deg)
+      brightness(104%) contrast(101%);
+  }
 }
 
 /* responsive  hamburguesaaaaaa --------------- */
